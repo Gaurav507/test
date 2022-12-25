@@ -1,0 +1,74 @@
+body{
+    background-color: black;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vw;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+.optionBox{
+    display: none;
+    position: absolute;
+    top: 40%;
+    border: solid;
+    /* display: flex; */
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 5vw;
+    width: fit-content;
+}
+.optionBox h2{
+    margin-bottom: 3vw;
+}
+.optionBox button{
+    padding: 2vw;
+    background-color: rgb(47, 255, 61);
+    font-size: 2.5vw;
+    font-weight: 600;
+    cursor: pointer;
+    z-index: 2;
+    width: 35vw;
+}
+.asPlayer{
+    border: solid;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: fit-content;
+    position: absolute;
+    left: 40%;
+}
+.asPlayer ul{
+    list-style: none;
+    padding: 2vw 0vw;
+}
+.asPlayer ul li{
+    margin: 1vw;
+}
+
+.playcard{
+    display: flex;
+    flex-wrap: wrap;
+    border: solid;
+    /* justify-content: center;
+    align-items: center; */
+    width: 24vw;
+    height: 24vw;
+}
+.b1{
+    color: black;
+    width: 7vw;
+    height: 7vw;
+    margin: 0.5vw;
+    display: flex;
+    background-color: white;
+    justify-content: center;
+    align-items: center;
+}
